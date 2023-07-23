@@ -1,0 +1,89 @@
+.navbar-brand {
+  width: 120px;
+  display: inline-block; }
+  .navbar-brand > img {
+    width: 100%; }
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff;
+  border-bottom: 2px solid orangered; }
+
+.slideImg {
+  height: 450px; }
+
+.slideImg .img-ht img {
+  height: 450px;
+  object-fit: cover; }
+
+.imgBg {
+  position: relative;
+  background: url("../img/lights.jpg");
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.secImg::before {
+  position: absolute;
+  content: " ";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.imgBg-2 {
+  position: relative;
+  background: url("../img/media.jpg");
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.secImg-2::before {
+  position: absolute;
+  content: " ";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.photo-Gallary a img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; }
+
+.lowerFooter {
+  background-color: #000; }
+
+.secImg-2 i {
+  cursor: pointer; }
+
+.owl-nav {
+  font-size: 25px; }
+
+.owl-theme .owl-nav {
+  margin-top: 0; }
+
+@media all and (max-width: 768px) {
+  .submitBtn {
+    width: 100%; } }
+
+.card-body {
+  height: 250px; }
+
+.lowerFooter {
+  background-color: #000; }
+
+.lowerFooter {
+  background-color: #000; }
+
+.card-body {
+  height: auto; }
+
+.lowerFooter {
+  background-color: #000; }
+
+.lowerFooter {
+  background-color: #000; }
