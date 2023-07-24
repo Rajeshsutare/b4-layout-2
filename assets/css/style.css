@@ -12,8 +12,11 @@
   height: 450px; }
 
 .slideImg .img-ht img {
-  height: 450px;
+  height: 400px;
   object-fit: cover; }
+
+.slide-3 h1, p {
+  text-shadow: 3px 3px 5px #000; }
 
 .imgBg {
   position: relative;
@@ -65,9 +68,11 @@
 .owl-theme .owl-nav {
   margin-top: 0; }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 768px) {
   .submitBtn {
-    width: 100%; } }
+    width: 100%; }
+  .slideImg .img-ht img {
+    height: 500px; } }
 
 .aboutbg {
   position: relative;
